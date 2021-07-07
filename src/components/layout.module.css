@@ -33,3 +33,14 @@
 .nav-link-text:active {
   color: red;
 }
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 32px;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+}

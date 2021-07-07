@@ -5,14 +5,22 @@ import {
   heading,
   navLinks,
   navLinkItem,
-  navLinkText
+  navLinkText,
+  logo,
+  nav
 } from './layout.module.css'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Layout = ({ pageTitle, children }) => {
   return (
     <main className={container}>
       <title>{pageTitle}</title>
-      <nav>
+      <nav className={nav}>
+        <StaticImage
+          alt="Gatsby logo"
+          src="../images/icon.png"
+          className={logo}
+        />
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
