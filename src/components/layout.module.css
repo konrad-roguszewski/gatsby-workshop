@@ -1,0 +1,35 @@
+.container {
+  margin: auto;
+  max-width: 500px;
+  font-family: sans-serif;
+}
+
+.heading {
+  color: blue;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-link-item {
+  padding-right: 2rem;
+}
+
+.nav-link-text:link {
+  color: black;
+}
+
+.nav-link-text:visited {
+  color: blue;
+}
+
+.nav-link-text:hover {
+  color: green;
+}
+
+.nav-link-text:active {
+  color: red;
+}
